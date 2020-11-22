@@ -1,0 +1,14 @@
+
+<h1 align="center">Файлы которые вы искали</h1>
+<h1 align="center">
+<ul>
+  {% for pictures in object_list %}
+    <li>
+      {{ pictures.name }} -------> <p><a download href="{{ pictures.culka }}"><button>Скачать файл</button></a></p>
+    </li>
+  {% endfor %}
+</ul>
+</h1>
+
+
+
